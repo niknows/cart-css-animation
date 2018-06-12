@@ -11,7 +11,7 @@ html, body{
 }
 .road{
   box-sizing: border-box;
-  height:200px;
+  height:220px;
   background-color: #2C3A47;
   position: relative;
 }
