@@ -18,7 +18,7 @@ html, body{
 .lines{
   border-top: 10px dashed white;
   position: relative;
-  top: -10px;
+  top: -14px;
 }
 img,.driver{
   width: 110px;
