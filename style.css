@@ -1,0 +1,41 @@
+html, body{
+  margin: 0;
+}
+.sky {
+  background-color: #25CCF7;
+  height: 200px;
+}
+.grass {
+   background-color: #BDC581;
+  height: 180px;
+}
+.road{
+  box-sizing: border-box;
+  height:200px;
+  background-color: #2C3A47;
+  position: relative;
+}
+.lines{
+  border-top: 10px dashed white;
+  position: relative;
+  top: 4%;
+}
+img,.driver{
+  width: 110px;
+  position: relative;
+  top: 20px
+}
+.driver{
+  
+  animation-name: drive;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  
+}
+
+/*KEYFRAMES*/
+@keyframes drive {
+from{transform: translateX(-200px)}
+to{transform: translateX(2000px)}
+}
