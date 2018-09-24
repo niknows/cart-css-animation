@@ -1,4 +1,4 @@
-<h1>cart-css-animation</h1>
+<h1>Cart Css Animation</h1>
 CSS animation practice.
 
 <strong>Heads Up:</strong>
